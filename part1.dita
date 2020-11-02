@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="untitled2">
+    <title>Part 1: Swap Positions in Workday HCM</title>
+    <conbody>
+        <p>1.1<b>Intended audience</b></p>
+        <p>This manual is intended for the managers and the administrators of Workday HCM (Workday)
+            to swap the positions for the existing workers. The readers of this guide are assumed to
+            have experience working on the previous Swap Position feature. </p>
+        <p/>
+        <p>1.2 <b>Conceptual overview</b></p>
+        <p>Until now, the managers and administrators had to create temporary (dummy) positions for
+            the workers involved in the swap and to mark their positions available for the swap
+            participants. The workers and the swap participants were then moved to their originally
+            intended positions.</p>
+        <p>This was not only a cumbersome process but also involved additional complicated tasks
+            like job changes in the worker’s history, possible clerical errors, or issues with the
+            manual entries.</p>
+        <p>1.2.1<b> The new Swap Position features</b></p>
+        <p>Perform seamless swap positions at once for individuals or the group of workers in
+            rotation or reorganizations. The new feature also reduces the errors and automates the
+            manual efforts by enabling you to:</p>
+        <ul id="ul_o2w_vpk_nnb">
+            <li>Swap workers’ positions and assignments for the organization at the same time with
+                ease, and in the same one-stop-shop location.</li>
+            <li>Define different reasons for performing swaps in Workday.</li>
+            <li>List down the workers for the future swap positions.</li>
+            <li>Ensure that the workers have the same job profiles defined in Workday before and
+                after a position or assignment swap. </li>
+        </ul>
+        <p> 1.2.2 <b>Use Cases </b></p>
+        <p>The new Swap Position feature performs the swap of an individual or a group of workers in
+            a single transaction. The use cases include the following scenarios:</p>
+        <ol id="ol_wkz_lqk_nnb">
+            <li>In banking: Tellers and personal bankers often change their seats to switch
+                locations, or hours more easily. This works better for their schedules.</li>
+            <li>In law enforcement: Workers bid on multiple assignments which are granted based on
+                seniority or tenure.</li>
+            <li>Shift rotations: Workers that are in rotational programs need to move or rotate from
+                one position to the other (e.g. from position A to B, or from position B to C).</li>
+            <li>Mass reorganizations: Thousands of workers change positions, organizations,
+                locations, and managers on an annual basis as a part of a larger reorganization
+                which might happen periodically throughout the year. </li>
+        </ol>
+        <p>1.3 <b>Procedure to complete a position swap</b></p>
+        <p>There are 3 major steps involved in performing a complete Swap Position task as mentioned
+            below.</p>
+        <p>
+            <note>The fields marked with asterisks (<b>*</b>) are required and must be
+                completed.</note>
+        </p>
+        <p><b> Step 1: Find ~Workers~ for Swap Position</b></p>
+        <ol id="ol_pxc_tqk_nnb">
+            <li>Type the query in the <uicontrol>search</uicontrol> box within the <b>Find Workers
+                </b>report.</li>
+            <li>Narrow the results by using the available filters in the <b>Current Search</b>.</li>
+            <li>Check the corresponding boxes to select the worker/s.</li>
+            <li>Press the <uicontrol>Add to Swap Positions</uicontrol>
+                <b>List</b> and type the <b>name</b> to create the list of workers to be
+                swapped.</li>
+        </ol>
+        <p><b>Tips</b></p>
+        <ul id="ul_qxc_tqk_nnb">
+            <li>Use <b>Saved Searches</b> to retrieve the workers saved earlier</li>
+            <li>Use <b>Compare</b> to see if you are swapping the correct positions. </li>
+        </ul>
+        <p><b>Step 2: Add to Swap Positions list</b></p>
+        <p>1. Select from the <b>Swap Position List </b>drop-down menu and press
+                <uicontrol>OK.</uicontrol></p>
+        <p><b>Step 3: Swap Positions</b></p>
+        <ol id="ol_yvm_2rk_nnb">
+            <li>Select the <b>Effective Date</b>.</li>
+            <li>Select the appropriate <b>Reason</b> or reasons for the swap. Read Maintain Event
+                Categories and Reasons task for more information.</li>
+            <li><i>Optional step</i>: Check the box <b>Use Swap Position List</b> to choose from the
+                available list.</li>
+            <li>Press <uicontrol>OK</uicontrol>.</li>
+        </ol>
+        <p> Enter the <b>Event Title</b> identify individual workers one-at-a-time.</p>
+        <p><b>Step 4: Define Proposed Position</b></p>
+        <ol id="ol_lsc_3rk_nnb">
+            <li><i>Optional step</i>: Define the <b>Proposed Position</b> for each swapped worker in
+                the events like the changes in the job description, promotion, transfers, etc.</li>
+        </ol>
+        <p>     2. Enter the optional comments and press <uicontrol>Submit</uicontrol>.</p>
+        <p>1.4 4 <b>List of questions to the subject matter expert (SME)</b></p>
+        <ol id="ol_enq_lrk_nnb">
+            <li>Find Workers report: is this the beginning step?</li>
+            <li>Link to the tenant configuration setting is missing.</li>
+            <li>In the <b>Step 1: Find ~Workers~ for Swap Position,</b> what types of keywords are
+                allowed to search?</li>
+            <li>In the same step, can we search (or filter) by the name of workers, since we can
+                perform a single employee position swap?</li>
+            <li>What are the scenarios when the manager/administrator must log out and log in again
+                (it appears it was required in the <b>Step 2: Add to Swap Positions list</b>)?</li>
+            <li>How to proceed after entering the <b>Event Title </b>(missing
+                    <uicontrol>Next/OK</uicontrol> etc. buttons)?</li>
+        </ol>
+        <p> </p>
+        <p/>
+    </conbody>
+</concept>

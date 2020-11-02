@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="untitled3">
+    <title>Part 2: Rewriting sentences</title>
+    <conbody>
+        <p><b>Rewritten #1</b></p>
+        <p>When a manager initiates the Bonus and Awards to the employee, Workday sends a
+            notification to the managers, the compensation administrator, and the employee HR
+            partner.</p>
+        <p><b> Rewritten #2</b></p>
+        <p>Workers can create Spend Authorization and check the approved authorizations of the
+            expenses in the Expense Reports.</p>
+        <p><b> Rewritten #5</b></p>
+        <p>Workday includes all the compensation plans to calculate compensation basis only when the
+            compensation element selected on the plan is included in the employee’s compensation
+            grade as a base pay element.</p>
+        <p><b> Rewritten #6</b></p>
+        <p>Workday calculates the taxes by considering the following during the payroll:</p>
+        <ol id="ol_gbn_xvj_nnb">
+            <li>The full amount of each taxable component including the imputed earning and the
+                pre-tax deduction for each of the jurisdictions.</li>
+            <li>Split the pay components according to the defined percentages.</li>
+        </ol>
+        <p><b> Rewritten #8</b></p>
+        <p>You can set up the company taxes by location if your workers travel for work in different
+            locations. Thus, you can accurately withhold the taxes for the exact time as reported in
+            the time tracking or payroll input.</p>
+    </conbody>
+</concept>
