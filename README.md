@@ -1,2 +1,2 @@
 # wwe
-Practising XML 
+Practising DITA
